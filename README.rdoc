@@ -7,7 +7,7 @@ Rails 3.0 +
 
 2) INSTALLAZIONE:
 
-Da riga di comando, posizionarsi nella cartella "telephone".
+Da riga di comando, posizionarsi nella cartella dell'applicazione.
 Eseguire il comando: 
   ~ bundle install
 
@@ -25,5 +25,5 @@ Le lingue supportate sono Inglese (:en) e Italiano (:it)
 
 4) LANCIARE L'APPLICAZIONE:
 
-Posizionarsi da riga di comando sulla cartella "telephone" e eseguire il comando 
+Posizionarsi da riga di comando sulla cartella dell'applicazione e eseguire il comando 
   ~ rails s
