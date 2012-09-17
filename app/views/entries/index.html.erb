@@ -1,0 +1,33 @@
+
+<% if @entries%>
+ <% title t('entries_results') %>
+ <% if @entries.size == 0%>
+    <div id="flash_notice"><%=t('no_result')%></div>
+  <% else %>
+    <table>
+      <tr>
+        <th><%=t('first_name')%></th>
+        <th><%=t('last_name')%></th>
+        <th><%=t('number')%></th>
+      </tr>
+      <% for entry in @entries %>
+        <tr>
+          <td><%= entry.first_name %></td>
+          <td><%= entry.last_name %></td>
+          <td><%= entry.number %></td>
+          <td><%= link_to t('edit'), edit_entry_path(entry) %></td>
+        </tr>
+      <% end %>
+    </table>
+  <% end %>
+  <p><%= link_to t('back_to_search'), :back %></p>
+<% else %>
+  <% title t('search_entries') %>
+  <%= form_tag entries_path, :method => 'get', :id => 'search' do %>
+    <p>
+      <%= text_field_tag :filter, params[:filter] %>
+      <%= submit_tag t('search') %>
+    </p>
+  <% end %> 
+  <p><%= link_to t('new_entry'), new_entry_path %></p>
+<% end %>

@@ -1,0 +1,25 @@
+it:
+  search_entries: "Cerca fra i contatti"
+  entries_results: "Risultati della ricerca"
+  back_to_search: "Torna alla ricerca"
+  new_entry: "Nuovo contatto"
+  edit_entry: "Modifica contatto"
+  show_entry: "Dati contatto"
+  edit: "Modifica"
+  search: "Cerca"
+  no_result: "Nessun risultato"
+  first_name: "Nome"
+  last_name: "Cognome"
+  number: "Numero"
+  entry_creation_success: "Contatto creato correttamente"
+  entry_update_success: "Contatto modificato correttamente"
+
+  helpers:
+    submit:
+      create: "Crea %{model}"
+      update: "Modifica %{model}"
+      submit: "Invia %{model}"
+  
+  activerecord:
+    models:
+      entry: "Contatto"

@@ -1,0 +1,19 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  search_entries: "Search for entries"
+  entries_results: "Entries results"
+  back_to_search: "Back to search"
+  new_entry: "New entry"
+  edit_entry: "Edit entry"
+  show_entry: "Show entry"
+  edit: "Edit"
+  search: "Search"
+  no_result: "No result"
+  first_name: "First name"
+  last_name: "Last name"
+  number: "Number"
+  entry_creation_success: "Successfully created entry"
+  entry_update_success: "Successfully updated entry"
